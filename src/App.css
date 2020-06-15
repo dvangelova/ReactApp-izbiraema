@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #fbf4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #34393a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form{
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 55%;
+  text-align: center;
+  padding: 30px 0px;
+  border-radius: 17px;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgrey;
+}
+
+.form input, textarea, select, button{
+  width: 70%;
+  height: 35px;
+  margin-bottom: 6px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  box-shadow: 0px 1px 3px darkgrey;
+}
+
+.center-title{
+  text-align: center;
+  font-weight: 600;
+}
+
+.error-msg{
+  text-align: center;
+  color: red;
+}
+
+button {
+  border-radius: 17px;
+  margin-top: 15px;
+  background-color: #f9ecec;
+}
+
+.card-style{
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 17px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px darkgrey;
+}
+
+.card-wrapper{
+  padding: 20px;
+  display: block;
+}
+
+.user-card{
+  width: 23%;
+}
+
+.card-style p{
+  margin: 13px 5px 13px 13px;
+}
+
+.card-style button{
+  width: 80px;
+  height: 35px;
+  margin: 0 5px 13px 13px;
+  border-radius: 17px;
+  border: 1px solid transparent;
+  background-color: #f9ecec;
+  box-shadow: 0px 1px 3px darkgrey;
+}
+
+.task-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.task-card{
+  width: 47%;
+}
+
+textarea{
+  height: 100px;
+}
+
+select{
+  text-align-last:center; 
+}
+
+.create-buttons{
+  display: inline;
+}
+
+.create-buttons button{
+  width: 33%;
+}
+
+.create-buttons button:first-child{
+  margin-right: 20px;
+}
+
+.header-links{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.task{
+  padding: 0 0 10px 0;
+}
+
+.header-links a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
